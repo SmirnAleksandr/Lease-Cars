@@ -1,0 +1,50 @@
+.video {
+    margin-bottom: 150px;
+}
+
+.video-title {
+    margin-bottom: 20px;
+}
+
+.video-subtitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.video-wrapper {
+    position: relative;
+}
+
+.video-img {
+    margin-inline: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-link {
+    display: inline-block;
+}
+
+.video-img-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    transition: var(--main-trs);
+}
+
+.video-img-icon:hover {
+    width: 90px;
+    height: 66px;
+}
+
+@media (max-width: 600px) {
+    .video {
+        margin-bottom: 50px;
+    }
+
+    .video-img-icon {
+        width: 60px;
+        height: 36px;
+    }
+}

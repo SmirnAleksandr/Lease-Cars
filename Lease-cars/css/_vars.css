@@ -1,0 +1,16 @@
+:root {
+    --color-light: #FFFFFF;
+    --color-grey: #E8E8E8;
+    --color-accent: #0066FF;
+    --color-dark: #151515;
+
+    --font-family: "Inter", sans-serif;
+
+    --gap: 40px;
+    --container-width: 1200px;
+    --container-offset: 15px;
+
+    --border-radius: 50%;
+
+    --main-trs: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease, 0.3s ease;
+}

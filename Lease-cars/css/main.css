@@ -1,0 +1,27 @@
+/* Global */
+@import url("_normalize.css");
+@import url("_fonts.css");
+@import url("_vars.css");
+@import url("_settings.css");
+
+/* Blocks */
+@import url("./blocks/_burger-menu.css");
+@import url("./blocks/_grid.css");
+@import url("./blocks/_title.css");
+@import url("./blocks/_button.css");
+@import url("./blocks/_input.css");
+@import url("./blocks/_header.css");
+@import url("./blocks/_hero.css");
+@import url("./blocks/_advantages.css");
+@import url("./blocks/_how.css");
+@import url("./blocks/_video.css");
+@import url("./blocks/_important.css");
+@import url("./blocks/_footer.css");
+
+
+/* Catalog */
+@import url("./blocks/_catalog.css");
+@import url("./blocks/_info.css");
+
+/* Contacts */
+@import url("./blocks/_form.css");

@@ -1,0 +1,86 @@
+.catalog {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.catalog-title {
+    margin-bottom: 50px;
+}
+
+.catalog-list {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.catalog-link {
+    transition: var(--main-trs);
+}
+
+.catalog-link:hover {
+    color: var(--color-accent);
+}
+
+.shopping-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px 40px;
+    margin-bottom: 70px;
+}
+
+.shopping-card {
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    border: 1px solid var(--color-accent);
+}
+
+.shopping-card-price-month {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.shopping-card-link {
+    color: var(--color-accent);
+    border-top: 1px solid var(--color-accent);
+    transition: var(--main-trs);
+}
+
+.shopping-card-link:hover {
+    color: var(--color-light);
+    background-color: var(--color-accent);
+}
+
+.button-small {
+    margin-inline: auto;
+}
+
+@media (max-width: 800px) {
+    .catalog {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .catalog-title {
+        margin-bottom: 30px;
+    }
+    
+    .catalog-list {
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+
+    .shopping-card-wrapper {
+        row-gap: 50px;
+    }
+}
+
+@media (max-width: 650px) {    
+    .catalog-list {
+        flex-wrap: wrap;
+    }
+}

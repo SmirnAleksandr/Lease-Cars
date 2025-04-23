@@ -1,0 +1,16 @@
+.title-big {
+    font-weight: 700;
+    font-size: clamp(40px, 8vw, 96px);
+    color: var(--color-light);
+}
+
+.title-small {
+    font-weight: 700;
+    font-size: clamp(28px, 4vw, 48px);
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: clamp(18px, 2vw, 24px);
+}

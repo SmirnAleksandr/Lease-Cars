@@ -1,0 +1,37 @@
+.button-big,
+.button-small {
+    display: block;
+    background-color: var(--color-dark);
+    font-weight: 700;
+    color: var(--color-light);
+    text-transform: uppercase;
+    text-align: center;
+    transition: var(--main-trs);
+}
+
+.button-big {
+    max-width: clamp(230px, 35.83vw, 430px);
+    padding-block: 23px;
+    font-size: clamp(20px, 3vw, 36px);
+}
+
+.button-small {
+    max-width: 223px;
+    padding-block: 13px;
+}
+
+.button-big:hover,
+.button-small:hover {
+    background-color: var(--color-accent);
+}
+
+.button-tiny {
+    color: var(--color-light);
+    padding: 4px 20px;
+    background-color: var(--color-accent);
+    transition: var(--main-trs);
+}
+
+.button-tiny:hover {
+    background-color: var(--color-dark);
+}

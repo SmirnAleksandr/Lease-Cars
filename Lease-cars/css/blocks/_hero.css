@@ -1,0 +1,17 @@
+.header-main-page {
+    min-height: 100vh;
+    background-image: url(../../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-title {
+    margin-top: 10vh;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.hero-button {
+    margin-left: calc(50% - clamp(115px, 17.91vw, 215px));
+}

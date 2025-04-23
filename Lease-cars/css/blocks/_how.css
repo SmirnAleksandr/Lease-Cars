@@ -1,0 +1,62 @@
+.how {
+    max-width: 624px;
+    padding-inline: 15px;
+    margin: 0 auto 150px;
+}
+
+.how-title,
+.how-description,
+.how-subtitle {
+    margin-bottom: 50px;
+}
+
+.how-list {
+    counter-reset: myCounter;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.how-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.how-item::before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    aspect-ratio: 1;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+    font-size: clamp(28px, 4vw, 48px);
+    color: var(--color-light);
+    background: var(--color-accent);
+    margin-right: clamp(50px, 11.66vw, 140px);
+}
+
+@media (max-width: 600px) {
+    .how {
+        margin-block: 50px;
+    }
+
+    .how-title,
+    .how-description,
+    .how-subtitle {
+    margin-bottom: 30px;
+}
+
+    .how-item::before {
+        min-width: 60px;
+    }
+
+    .how-list {
+        margin-left: 30px;
+    }
+}
